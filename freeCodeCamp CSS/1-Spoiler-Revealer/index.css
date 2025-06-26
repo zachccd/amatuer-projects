@@ -1,0 +1,24 @@
+:root{
+    --spoiler-color: rgb(88, 88, 88);
+} 
+
+p{
+    font-size: 1.5em;
+    background-color: #e8eaed;
+    border-radius: .5em;
+    margin-bottom: 1em;
+    padding: .5em;
+    max-width: 25rem;
+}
+
+.spoiler{
+    background-color: var(--spoiler-color);
+    color: var(--spoiler-color);
+    
+    transition: all .425s ease-in-out;
+}
+
+.spoiler:hover{
+    background-color: initial;
+    color: initial;
+}
